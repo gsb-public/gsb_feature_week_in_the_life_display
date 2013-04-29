@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the GSB Feature Week In The Life Display feature.
+ */
+
+include_once 'gsb_feature_week_in_the_life_display.features.inc';
