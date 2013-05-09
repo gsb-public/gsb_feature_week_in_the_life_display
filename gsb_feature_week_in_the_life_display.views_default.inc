@@ -110,6 +110,8 @@ function gsb_feature_week_in_the_life_display_views_default_views() {
 
   /* Display: Archive */
   $handler = $view->new_display('page', 'Archive', 'witl_archive_page');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'Week In The Life Archive';
   $handler->display->display_options['defaults']['pager'] = FALSE;
   $handler->display->display_options['pager']['type'] = 'load_more';
   $handler->display->display_options['pager']['options']['items_per_page'] = '9';
