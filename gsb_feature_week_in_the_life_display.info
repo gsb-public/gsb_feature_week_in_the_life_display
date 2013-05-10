@@ -8,6 +8,7 @@ project = gsb_feature_week_in_the_life_display
 dependencies[] = ctools
 dependencies[] = views
 dependencies[] = views_load_more
+dependencies[] = views_responsive_grid
 datestamp = 1368124523
 features[ctools][] = views:views_default:3.0
 features[features_api][] = api:1
