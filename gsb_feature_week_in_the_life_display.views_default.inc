@@ -39,7 +39,7 @@ function gsb_feature_week_in_the_life_display_views_default_views() {
   $handler->display->display_options['empty']['area']['field'] = 'area';
   $handler->display->display_options['empty']['area']['empty'] = TRUE;
   $handler->display->display_options['empty']['area']['content'] = 'no results found.';
-  $handler->display->display_options['empty']['area']['format'] = 'panopoly_wysiwyg_text';
+  $handler->display->display_options['empty']['area']['format'] = 'gsb_wysiwyg_text';
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'node';
@@ -75,7 +75,7 @@ function gsb_feature_week_in_the_life_display_views_default_views() {
   $handler->display->display_options['header']['area']['table'] = 'views';
   $handler->display->display_options['header']['area']['field'] = 'area';
   $handler->display->display_options['header']['area']['content'] = '<strong>What\'s it like to be an MBA student at the Stanford Graduate School of Business?</strong> Find out from our students who captured week-long snapshots of their time at the GSB.';
-  $handler->display->display_options['header']['area']['format'] = 'panopoly_wysiwyg_text';
+  $handler->display->display_options['header']['area']['format'] = 'gsb_wysiwyg_text';
   $handler->display->display_options['defaults']['footer'] = FALSE;
   /* Footer: Global: Text area */
   $handler->display->display_options['footer']['area']['id'] = 'area';
@@ -133,7 +133,7 @@ function gsb_feature_week_in_the_life_display_views_default_views() {
   $handler->display->display_options['footer']['area']['table'] = 'views';
   $handler->display->display_options['footer']['area']['field'] = 'area';
   $handler->display->display_options['footer']['area']['content'] = '<a href="/programs/mba/student-life/gsb-unofficial/week-in-the-life">Current Year</a>';
-  $handler->display->display_options['footer']['area']['format'] = 'panopoly_wysiwyg_text';
+  $handler->display->display_options['footer']['area']['format'] = 'gsb_wysiwyg_text';
   $handler->display->display_options['defaults']['sorts'] = FALSE;
   /* Sort criterion: Field: Graduation Year (field_year) */
   $handler->display->display_options['sorts']['field_year_value']['id'] = 'field_year_value';
