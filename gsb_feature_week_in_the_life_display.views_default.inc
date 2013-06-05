@@ -128,12 +128,6 @@ function gsb_feature_week_in_the_life_display_views_default_views() {
   $handler->display->display_options['pager']['options']['use_go_to_top_link'] = 1;
   $handler->display->display_options['pager']['options']['use_go_to_top_text'] = 'Back to the Top';
   $handler->display->display_options['defaults']['footer'] = FALSE;
-  /* Footer: Global: Text area */
-  $handler->display->display_options['footer']['area']['id'] = 'area';
-  $handler->display->display_options['footer']['area']['table'] = 'views';
-  $handler->display->display_options['footer']['area']['field'] = 'area';
-  $handler->display->display_options['footer']['area']['content'] = '<a href="/programs/mba/student-life/gsb-unofficial/week-in-the-life">Current Year</a>';
-  $handler->display->display_options['footer']['area']['format'] = 'gsb_wysiwyg_text';
   $handler->display->display_options['defaults']['sorts'] = FALSE;
   /* Sort criterion: Field: Graduation Year (field_year) */
   $handler->display->display_options['sorts']['field_year_value']['id'] = 'field_year_value';
