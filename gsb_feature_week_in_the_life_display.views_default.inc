@@ -82,7 +82,7 @@ function gsb_feature_week_in_the_life_display_views_default_views() {
   $handler->display->display_options['footer']['area']['table'] = 'views';
   $handler->display->display_options['footer']['area']['field'] = 'area';
   $handler->display->display_options['footer']['area']['empty'] = TRUE;
-  $handler->display->display_options['footer']['area']['content'] = '<a href="/programs/mba/student-life/gsb-unofficial/week-in-the-life/archive">Previous Years</a>';
+  $handler->display->display_options['footer']['area']['content'] = '<a href="/programs/mba/student-life/week-in-the-life/archive">Previous Years</a>';
   $handler->display->display_options['footer']['area']['format'] = 'full_html';
   $handler->display->display_options['defaults']['sorts'] = FALSE;
   /* Sort criterion: Global: Random */
@@ -112,7 +112,7 @@ function gsb_feature_week_in_the_life_display_views_default_views() {
   $handler->display->display_options['filters']['field_witl_archive_value']['value'] = array(
     0 => '0',
   );
-  $handler->display->display_options['path'] = 'programs/mba/student-life/gsb-unofficial/week-in-the-life';
+  $handler->display->display_options['path'] = 'programs/mba/student-life/week-in-the-life';
 
   /* Display: Archive */
   $handler = $view->new_display('page', 'Archive', 'witl_archive_page');
@@ -165,7 +165,7 @@ function gsb_feature_week_in_the_life_display_views_default_views() {
   $handler->display->display_options['filters']['field_witl_archive_value']['value'] = array(
     1 => '1',
   );
-  $handler->display->display_options['path'] = 'programs/mba/student-life/gsb-unofficial/week-in-the-life/archive';
+  $handler->display->display_options['path'] = 'programs/mba/student-life/week-in-the-life/archive';
   $export['week_in_the_life'] = $view;
 
   return $export;
