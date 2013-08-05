@@ -22,7 +22,7 @@ function gsb_feature_week_in_the_life_display_views_default_views() {
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'Week In The Life';
+  $handler->display->display_options['title'] = 'A Week in the Life';
   $handler->display->display_options['use_ajax'] = TRUE;
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
