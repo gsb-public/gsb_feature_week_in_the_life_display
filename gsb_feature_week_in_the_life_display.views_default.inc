@@ -74,7 +74,7 @@ function gsb_feature_week_in_the_life_display_views_default_views() {
   $handler->display->display_options['header']['area']['id'] = 'area';
   $handler->display->display_options['header']['area']['table'] = 'views';
   $handler->display->display_options['header']['area']['field'] = 'area';
-  $handler->display->display_options['header']['area']['content'] = '<strong>What\'s it like to be an MBA student at the Stanford Graduate School of Business?</strong> Find out from our students who captured week-long snapshots of their time at the GSB.';
+  $handler->display->display_options['header']['area']['content'] = '<strong>What\'s it like to be an MBA student at the Stanford Graduate School of Business?</strong> Find out from our students who captured week-long snapshots of their time at Stanford GSB.';
   $handler->display->display_options['header']['area']['format'] = 'gsb_wysiwyg_text';
   $handler->display->display_options['defaults']['footer'] = FALSE;
   /* Footer: Global: Text area */
