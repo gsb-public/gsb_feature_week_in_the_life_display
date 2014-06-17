@@ -113,6 +113,12 @@ function gsb_feature_week_in_the_life_display_views_default_views() {
     0 => '0',
   );
   $handler->display->display_options['path'] = 'programs/mba/student-life/week-in-the-life';
+  $handler->display->display_options['menu']['type'] = 'default tab';
+  $handler->display->display_options['menu']['title'] = 'A Week in the Life';
+  $handler->display->display_options['menu']['weight'] = '0';
+  $handler->display->display_options['menu']['context'] = 0;
+  $handler->display->display_options['menu']['context_only_inline'] = 0;
+  $handler->display->display_options['tab_options']['weight'] = '0';
 
   /* Display: Archive */
   $handler = $view->new_display('page', 'Archive', 'witl_archive_page');
